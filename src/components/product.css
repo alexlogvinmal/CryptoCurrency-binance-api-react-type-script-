@@ -1,0 +1,46 @@
+.currency {
+    width: 240px;
+    padding-left: 110px;
+}
+
+.percent {
+    width: 80px;
+} 
+
+ /* tr {
+    width: 450px;
+}  */
+.gav{
+    width: 20px;
+}
+
+.percentcolor{
+    border-radius: 16px;
+    padding: 0.4em 0.5em;
+    font-size: .9em;
+    color: #fff;
+}
+
+ .highcurrency {
+    width: 280px;
+    padding-left: 150px;
+}
+
+.lowcurrency {
+    width: 280px;
+    padding-left: 140px;
+} 
+
+ .coin{
+    width: 300px;
+    
+} 
+
+.borderr16{
+    border-radius: 16px;
+}
+
+.fire{
+    
+    max-width: 12px;
+} 

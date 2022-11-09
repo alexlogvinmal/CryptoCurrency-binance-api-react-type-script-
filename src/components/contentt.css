@@ -1,0 +1,38 @@
+.maindiv{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color:rgb(255, 255, 255);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+}
+
+.coinname{
+    position: absolute;
+    padding-left: 4%;
+}
+
+.lastprice{
+    position: absolute;
+    padding-left: 42.5%;
+}
+
+.percentchange{
+    position: absolute;
+    padding-left: 25.5%;
+}
+
+.hchange{
+    position: absolute;
+    padding-left: 62.5%;
+}
+
+.lchange{
+    padding-left: 82.5%;
+}
+
+.sdiv{
+    color: #747474;
+}

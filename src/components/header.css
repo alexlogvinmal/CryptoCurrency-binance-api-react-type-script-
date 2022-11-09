@@ -1,0 +1,132 @@
+#header {
+    display: flex;
+    background-color: aliceblue;
+    
+}
+
+#logo {
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    flex-grow: 1;
+    font-size: var(--main-font-size);
+    padding-left: 56px;
+    margin-bottom: 12px;
+    margin-top: 45px;
+    color: var(--logo-color);
+}
+
+
+.socbtns {
+   position: absolute;
+}
+
+.socbtns, .socbtns ul, .socbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socbtns {
+    right: 80px;
+    top: 0px;
+}
+
+.socbtns a, .socbtns a:hover {
+    color: #777;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 2px;
+}
+.fa {
+    display: inline-block;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1;
+    font-family: FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+big {
+    color: #32a1ce;
+}
+
+:root {
+	
+	--bg: #181818;
+	--shadow: hsl(330 100% 70.6% / 40%);
+	--gradient: conic-gradient(at 50% 50%, rebeccapurple, rebeccapurple, hotpink, rebeccapurple);
+
+  --size: 8rem;
+
+}
+
+/* 
+optional shadow effect
+You can use just the .symbol element if you dont want a drop-shadow 
+*/
+.symbol-shadow {
+    padding-left: 10px;
+	filter: drop-shadow(0 0 14px var(--shadow));
+}
+
+.symbol {
+	position:relative;
+	overflow: hidden;
+	width: var(--size);
+	height: calc(var(--size) - calc(var(--size) / 4));
+	clip-path: polygon(
+		50% 0%,
+		50% 25%,
+		19% 88%,
+		81% 88%,
+		50% 25%,
+		50% 0,
+		100% 100%,
+		0% 100%
+	);
+}
+
+.symbol::before {
+	content: "";
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	inset: -35% -50%;
+	background-image: var(--gradient);
+	will-change: transform;
+	animation: rot 8s linear infinite;
+	z-index: -1;
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(0)
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*------------
+Global Setup 
+------------*/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+

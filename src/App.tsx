@@ -31,14 +31,14 @@ if(celected=='1'){
     <div>
     <Header/>
     <div id='filter' >
-    <p>Сортировать по <select value={celected} 
+    <p>Show <select value={celected} 
                 onChange={(e) => cetSelected(e.target.value)} className='select-css'>
-                <option selected value='0'>все</option>  
-                <option value='1'>показывают рост</option>      
-                <option value='2'>падают в цене</option>
+                <option selected value='0'>All</option>  
+                <option value='1'>Gainers</option>      
+                <option value='2'>Losers</option>
             </select>
             </p>
-            <p>Курс к <select value={selected} 
+            <p>Exchange rate to <select value={selected} 
                 onChange={(e) => setSelected(e.target.value)} className='select-css'>
                 <option selected value='USDT'>USDT</option>  
                 <option value='EUR'>EUR</option>      

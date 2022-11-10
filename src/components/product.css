@@ -44,3 +44,11 @@
     
     max-width: 12px;
 } 
+
+@media screen and (max-device-width: 800px) {
+    .highcurrency {visibility: hidden}
+    .lowcurrency {visibility: hidden}
+    .percent {padding-left: 34%;}
+    .coin{ width: 10%; } 
+    .currency{padding-left: 37%;}
+}

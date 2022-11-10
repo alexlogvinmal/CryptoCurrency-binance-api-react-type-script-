@@ -33,7 +33,7 @@ export function Product({ product }: ProductProps) {
             <td className=" founser flex  items-center ">
                 <tr className='coin'>
                     <p className="font-bold">{product.b}</p>
-                    <p>{product.an}</p>
+                    <p className="fullname">{product.an}</p>
                 </tr>
                 <tr className='percent'>
                     <p><span className={percentClasses.join(' ')}>{percent}%</span></p>                  

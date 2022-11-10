@@ -10,29 +10,39 @@
 }
 
 .coinname{
-    position: absolute;
+    width: max;
     padding-left: 4%;
 }
 
 .lastprice{
-    position: absolute;
-    padding-left: 42.5%;
+    width: max;
+    padding-left: 10%;
+    
 }
 
 .percentchange{
-    position: absolute;
-    padding-left: 25.5%;
+    width: max;
+    padding-left: 19%;
 }
 
 .hchange{
-    position: absolute;
-    padding-left: 62.5%;
+    width: max;
+    padding-left: 16%;
 }
 
 .lchange{
-    padding-left: 82.5%;
+    width: max;
+    padding-left: 13%;
 }
 
 .sdiv{
     color: #747474;
+}
+
+@media screen and (max-device-width: 800px) {
+    .hchange {visibility: hidden}
+    .lchange {visibility: hidden}
+    .lastprice {padding-left: 20%;}
+    .percentchange{padding-left: 33%;}
+    .fullname{visibility: hidden}
 }

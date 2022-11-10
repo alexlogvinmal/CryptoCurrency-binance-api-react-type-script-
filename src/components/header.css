@@ -18,13 +18,13 @@
 
 
 .socbtns {
-   position: absolute;
+   
+   padding-left: 80%;
+}
+@media screen and (max-device-width: 800px) {
+    .socbtns {visibility: hidden}
 }
 
-.socbtns, .socbtns ul, .socbtns li {
-    margin: 0;
-    padding: 5px;
-}
 
 .socbtns {
     right: 80px;

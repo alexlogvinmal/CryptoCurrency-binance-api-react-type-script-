@@ -40,8 +40,8 @@
 }
 
 @media screen and (max-device-width: 800px) {
-    .hchange {visibility: hidden}
-    .lchange {visibility: hidden}
+    .hchange {visibility: hidden; width: 0px; padding-left:0px}
+    .lchange {visibility: hidden; width: 0px; padding-left:0px}
     .lastprice {padding-left: 20%;}
     .percentchange{padding-left: 33%;}
     .fullname{visibility: hidden}

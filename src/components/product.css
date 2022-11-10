@@ -46,9 +46,11 @@
 } 
 
 @media screen and (max-device-width: 800px) {
-    .highcurrency {visibility: hidden}
-    .lowcurrency {visibility: hidden}
+    .highcurrency {visibility: hidden; width: 0px; padding-left:0px}
+    .lowcurrency {visibility: hidden; width: 0px; padding-left: 0px}
     .percent {padding-left: 34%;}
     .coin{ width: 10%; } 
-    .currency{padding-left: 37%;}
+    .currency{padding-left: 37%; }
+    .gav{ visibility: hidden;}
+    
 }
